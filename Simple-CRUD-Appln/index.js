@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 });
 
 
-mongoose.connect("mongodb+srv://vineethv:ZHbdpOXOJg3tj4n3@peppermintdb.7cxl4.mongodb.net/?retryWrites=true&w=majority&appName=PepperMintDB")
+mongoose.connect("Connection")
     .then(() => {
         console.log('Connected to the Database!');
         app.listen(3000, (req, res) => {
